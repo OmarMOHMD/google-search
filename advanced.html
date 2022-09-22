@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google advanced search</title>
+    <link rel="stylesheet" href="advanced.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="./index.html">Google Search</a>
+    </nav>
+
+    <img src="./googlelogo.png" alt="googleLogo">
+    <h1>Advanced Search</h1><br>
+    <hr>
+
+
+    <form action="https://www.google.com/search">
+        <h2>Find pages with…</h2><br>
+        <div class="form_container">
+            <div class="advanced_para">
+                <p>all these words:</p>
+            </div>
+            <div class="advanced_input">
+                <input type="text" name="as_q">
+            </div>
+        </div>
+
+        <div class="form_container">
+            <div class="advanced_para">
+                <p>this exact word or phrase:</p>
+            </div>
+            <div class="advanced_input">
+                <input type="text" name="as_epq">
+            </div>
+        </div>
+
+        <div class="form_container">
+            <div class="advanced_para">
+                <p>any of these words:</p>
+            </div><br>
+            <div class="advanced_input">
+                <input type="text" name="as_oq">
+            </div>
+        </div>
+
+
+        <div class="form_container">
+            <div class="advanced_para">
+                <p>none of these words:</p>
+            </div>
+            <div class="advanced_input">
+                <input type="text" name="as_eq">
+            </div>
+        </div>
+
+        <div class="btn_search">
+            <button type="submit" value="Advanced Search">
+                Advanced Search
+            </button>
+        </div>
+        
+    </form>
+
+</body>
+
+</html>

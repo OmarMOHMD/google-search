@@ -42,6 +42,7 @@ form > input:hover ,form > input:focus {
     border-color: rgba(223,225,229,0);
 }
 
+
 .search_btn > input , .search_btn > input:active {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;

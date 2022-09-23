@@ -10,7 +10,7 @@
 
 nav {
     display: flex;
-    justify-content: end;
+    justify-content: start;
 }
 
 form {
@@ -41,8 +41,9 @@ h2 {
     font-weight: 300;
 }
 
-img {
-    width: 80px;
+.Logo {
+    font-size: 26px;
+    font-family: var(--font-family);
     margin: 8px 0 40px 15px;
 }
 
